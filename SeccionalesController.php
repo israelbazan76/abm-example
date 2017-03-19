@@ -162,12 +162,7 @@ class SeccionalesController extends Controller
 	public function actionIndex()
 	{
 		$this->redirect('admin');
-		/*
-		$dataProvider=new CActiveDataProvider('Seccionales');
-		$this->render('index',array(
-			'dataProvider'=>$dataProvider,
-		));
-		*/
+		
 	}
 
 	/**
